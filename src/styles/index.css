@@ -24,16 +24,21 @@ input, button {
 }
 
 header {
-background: aquamarine;
+background: teal;
+grid-column: 1/3;
+}
+nav {
+background: teal;
 grid-column: 1/3;
 }
 
+
 main {
-    background:burlywood;
+    background: mediumturquoise;
     grid-column: 1/3;
 }
 
 footer {
-background: cornflowerblue;
+background: grey;
 grid-column: 1/3;
 }
