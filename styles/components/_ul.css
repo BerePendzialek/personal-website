@@ -1,6 +1,6 @@
-.ul__navigation__list {
+.ul__navigation-list {
   list-style: none;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -9,7 +9,7 @@
   height: 100%;
 }
 
-.ul__navigation__item {
+.ul__navigation-item {
   margin: 0 10px;
 }
 
