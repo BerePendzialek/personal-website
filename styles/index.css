@@ -1,29 +1,9 @@
 @import '_base.css';
 @import '_utility.css';
 @import '_variables.css';
+@import './components/_navigation.css';
 
 /* Specific Styles */
-
-.navigation-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: right;
-  height: 100%;
-}
-
-.navigation-item {
-  margin: 0 10px;
-}
-
-.main-name {
-  justify-content: center;
-  align-items: center;
-  color: var(--color-links);
-}
 
 .avatar {
   border-radius: 5px;

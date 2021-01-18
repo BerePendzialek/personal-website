@@ -1,0 +1,5 @@
+.heading__main-name {
+  justify-content: center;
+  align-items: center;
+  color: var(--color-links);
+}
