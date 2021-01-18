@@ -1,10 +1,6 @@
-:root {
-  --color-white: #fcfbfa;
-  --color-black: #000;
-  --color-background: #fdeac6;
-  --color-font: #666;
-  --color-links: #ee6c4d;
-}
+@import '_base.css';
+@import '_utility.css';
+@import '_variables.css';
 
 * {
   box-sizing: border-box;
@@ -58,11 +54,6 @@ main {
 footer {
   grid-column: 2/3;
   background: var(--color-background);
-}
-
-/* Specific Styles */
-body {
-  padding: 1em 0;
 }
 
 /* Specific Styles */
