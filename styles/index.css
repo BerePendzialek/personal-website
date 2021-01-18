@@ -3,37 +3,7 @@
 @import '_variables.css';
 @import './components/_navigation.css';
 @import './components/_heading.css';
+@import './components/_ul.css';
+@import './components/_figure.css';
 
 /* Specific Styles */
-
-.portafolio-list {
-  list-style: none;
-  margin: 10px;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: left;
-  height: 100%;
-}
-
-.portafolio-item {
-  margin: 0 10px;
-}
-
-.skills {
-  list-style: none;
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  padding-left: 0px;
-}
-
-.skill {
-  margin: 10px;
-  background-image: linear-gradient(to right, --color-font, --color-links);
-  box-shadow: 2px 2px 2px var(--color-links);
-  padding-right: 3px;
-  padding-left: 3px;
-  border-radius: 2px;
-}
