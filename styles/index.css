@@ -2,60 +2,6 @@
 @import '_utility.css';
 @import '_variables.css';
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  display: grid;
-  grid-template-columns: 10% auto 10%;
-  grid-template-rows: auto auto auto;
-  row-gap: 10px;
-  column-gap: 00.5em;
-  margin: 0 auto;
-  max-width: 0 auto;
-  padding: 1em 0;
-  font-family: 'Roboto', sans-serif;
-  color: var(--color-font);
-  font-size: 112.5%;
-  line-height: 1.5;
-  background: var(--color-background);
-}
-
-a {
-  text-decoration: underline, solid;
-  text-decoration-color: var(--color-links);
-  color: var(--color-links);
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 400;
-}
-
-input,
-button {
-  font-size: 1em;
-}
-
-header {
-  grid-column: 2/3;
-  background: var(--color-background);
-  display: grid;
-}
-
-main {
-  background: var(--color-background);
-  grid-column: 2/3;
-  text-align: left;
-}
-
-footer {
-  grid-column: 2/3;
-  background: var(--color-background);
-}
-
 /* Specific Styles */
 
 .navigation-list {
