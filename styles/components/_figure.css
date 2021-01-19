@@ -1,0 +1,13 @@
+.figure__main {
+  align-content: center;
+}
+
+.figure__avatar {
+  border-radius: 20px;
+  width: 108px;
+  height: 140px;
+  border: 2px solid var(--color-font);
+  background-image: linear-gradient(to right, --color-font, --color-links);
+  box-shadow: 2px 2px 2px var(--color-links);
+  align-items: center;
+}
