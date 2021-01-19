@@ -6,6 +6,10 @@ body {
   display: grid;
   grid-template-columns: 10% auto 10%;
   grid-template-rows: auto auto auto;
+  grid-template-areas:
+    'hd' 'nav' 'hd'
+    'side' 'main' 'side'
+    'side' 'foot' 'side';
   row-gap: 10px;
   column-gap: 00.5em;
   margin: 0 auto;
