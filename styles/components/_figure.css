@@ -1,11 +1,13 @@
+.figure__main {
+  align-content: center;
+}
+
 .figure__avatar {
-  border-radius: 5px;
-  width: 110px;
+  border-radius: 20px;
+  width: 108px;
   height: 140px;
-  text-align: right;
   border: 2px solid var(--color-font);
-  padding-right: 3px;
-  padding-left: 3px;
   background-image: linear-gradient(to right, --color-font, --color-links);
   box-shadow: 2px 2px 2px var(--color-links);
+  align-items: center;
 }
